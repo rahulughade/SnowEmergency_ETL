@@ -1,0 +1,23 @@
+select snow_emergency_name, service_date, day_id
+from all_tags
+where community = "Lyndale"; 
+
+
+select snow_emergency_name, service_date, day_id
+from all_tows
+where community = "Loring Park";
+
+
+select snow_emergency_name, service_date, citation 
+from all_tags
+where community in ('Whittier', 'Loring Park', 'Lyndale');
+
+
+select snow_emergency_name, service_date
+from all_tows
+where neighborhood in ('East Isles', 'Lowry Hills East', 'Jordan')
+order by neighborhood;
+
+
+
+
