@@ -14,5 +14,8 @@ At the end of each notebook, MySQL connection was opened to push dataframes into
 
 ### Database schema
 Remaining 2 ETL Specs - all tags and all tows, are defined for the database schema design. All tags tables are combined using a UNION transformation to get a unified tags table. Similarly, all tows tables are combined to get a unified tows table.
-
+Database scripts to insert data into these two final tables are stored [here](https://github.com/rahulughade/SnowEmergency_ETL/blob/rahul/DBScripts/SQL_transformation_scripts.sql).
+### Views
+Finally a few views are designed to simulate a data mart in corporations. The scripts can be found at [here](https://github.com/rahulughade/SnowEmergency_ETL/blob/rahul/DBScripts/views_scripts.sql).
+These views contain aggregates for tags by neighborhood and tows by snow emergency name. Many such views can be designed to satisfy various department needs. 
 	
