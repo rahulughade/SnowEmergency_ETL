@@ -4,3 +4,6 @@ Each winter The City of Minneapolis collects information on Snow Emergencies acr
 For this project, we focused on Snow Emergency data from 2018. 
 In total, there were 3 Snow Emergencies in 2018. Those were named - Howe, Xerxes and Yardville.
 The dataset contains two files for snow emergency - Tags(which are citations) and Tows(which are towings).
+###System Architecture Design
+Based on the datasets, an ETL Specification spreadsheet has been designed to capture the necessary database design information. The spreadsheet can be found at [ETL SpecSheet](https://github.com/rahulughade/SnowEmergency_ETL/blob/rahul/ETL%20Specifications.xlsx).
+	
